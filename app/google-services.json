@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47159553440",
+    "project_id": "vogel-sara2021",
+    "storage_bucket": "vogel-sara2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47159553440:android:bdcc4e147aa3772df808c5",
+        "android_client_info": {
+          "package_name": "com.example.vogel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47159553440-bgtmlovdt2tf0gp494odlq0tinp3gvqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY__PjKZSLxU1d9ashANySwuFhOL8KYA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47159553440-bgtmlovdt2tf0gp494odlq0tinp3gvqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
