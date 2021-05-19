@@ -151,4 +151,5 @@ class AuthActivity : AppCompatActivity() {
 
         }
     }
+
 }

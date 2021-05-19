@@ -36,7 +36,7 @@ class HomeActivity : AppCompatActivity() {
         emailTextView.text = email
         providerTextView.text = provider
 
-        editButton.setOnClickListener {
+        logOutButton.setOnClickListener {
 
             //Borrado de datos
             val prefs = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()

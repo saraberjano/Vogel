@@ -9,15 +9,32 @@
 
     <LinearLayout
         android:id="@+id/authLayout"
-        android:layout_width="0dp"
-        android:layout_height="354dp"
+        android:layout_width="361dp"
+        android:layout_height="663dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="592dp"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
 
         <TextView
             android:id="@+id/emailTextView"
@@ -61,22 +78,51 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="359dp"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <Button
-                android:id="@+id/editButton"
-                android:layout_width="wrap_content"
+                android:id="@+id/safeButton"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#FFFFFF"
                 android:text="Guardar"
-                android:textColor="#0E0E0E" />
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/getButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Recuperar"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/deleteButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Eliminar"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/logOutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cerrar Sesión"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/errorButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Forzar error"
+                android:textColor="#FFFFFF" />
         </LinearLayout>
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
 
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
