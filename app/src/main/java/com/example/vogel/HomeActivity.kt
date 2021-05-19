@@ -4,7 +4,6 @@ import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_home.*
 
 enum class ProviderType {
@@ -37,7 +36,7 @@ class HomeActivity : AppCompatActivity() {
         emailTextView.text = email
         providerTextView.text = provider
 
-        logOutButton.setOnClickListener {
+        editButton.setOnClickListener {
 
             //Borrado de datos
             val prefs = getSharedPreferences(getString(R.string.prefs_file), Context.MODE_PRIVATE).edit()

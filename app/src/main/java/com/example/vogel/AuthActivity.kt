@@ -22,7 +22,7 @@ class AuthActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        setTheme(R.style.SplashTheme)
+        setTheme(R.style.Theme_Vogel)
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_auth)
